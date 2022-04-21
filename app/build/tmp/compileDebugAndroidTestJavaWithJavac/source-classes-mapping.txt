@@ -1,0 +1,4 @@
+com/je/xwsgame/ExampleInstrumentedTest.java
+ com.je.xwsgame.ExampleInstrumentedTest
+com/je/xwsgame/test/BuildConfig.java
+ com.je.xwsgame.test.BuildConfig

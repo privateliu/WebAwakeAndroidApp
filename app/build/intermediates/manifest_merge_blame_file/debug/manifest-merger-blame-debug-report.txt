@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.je.xwsgame"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:5:5-77
+11-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:7:22-63
+13
+14    <application
+14-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:9:5-55:19
+15        android:allowBackup="true"
+15-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\xws\.gradle\caches\transforms-2\files-2.1\2f6d088e208b7e69136a4b618d829804\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:14:9-35
+22        android:theme="@style/Theme.SuperSus" >
+22-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:15:9-46
+23        <activity android:name="com.je.xwsgame.VibratorDemoActivity" />
+23-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:16:9-67
+23-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:16:19-55
+24
+25        <service
+25-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:18:9-21:39
+26            android:name="com.je.xwsgame.service.MyService2"
+26-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:19:13-47
+27            android:enabled="true"
+27-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:20:13-35
+28            android:exported="true" />
+28-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:21:13-36
+29        <service
+29-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:22:9-25:39
+30            android:name="com.je.xwsgame.service.MyService"
+30-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:23:13-46
+31            android:enabled="true"
+31-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:24:13-35
+32            android:exported="true" />
+32-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:25:13-36
+33
+34        <activity android:name="com.je.xwsgame.MainActivity3" />
+34-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:27:9-51
+34-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:27:19-48
+35        <activity
+35-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:28:9-31:65
+36            android:name="com.je.xwsgame.MainActivity2"
+36-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:29:13-42
+37            android:label="@string/title_activity_main2"
+37-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:30:13-57
+38            android:theme="@style/Theme.SuperSus.NoActionBar" />
+38-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:31:13-62
+39        <activity
+39-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:32:9-54:20
+40            android:name="com.je.xwsgame.MainActivity"
+40-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:33:13-41
+41            android:launchMode="singleTask" >
+41-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:34:13-44
+42            <intent-filter>
+42-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:35:13-39:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:36:17-69
+43-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:38:17-77
+45-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:38:27-74
+46            </intent-filter>
+47
+48            <!-- 注册scheme -->
+49            <intent-filter>
+49-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:42:13-53:29
+50
+51                <!-- 必有项 -->
+52                <action android:name="android.intent.action.VIEW" />
+52-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:45:17-69
+52-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:45:25-66
+53                <!-- 表示该页面可以被隐式调用，必须加上该项 -->
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:47:17-76
+54-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:47:27-73
+55                <!-- BROWSABLE指定该Activity能被浏览器安全调用 -->
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:49:17-78
+56-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:49:27-75
+57                <!-- 协议部分 -->
+58                <!-- 声明自定义scheme，类似于http, https -->
+59                <data android:scheme="urlscheme" />
+59-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:52:17-52
+59-->D:\ASProject\SuperSus\app\src\main\AndroidManifest.xml:52:23-49
+60            </intent-filter>
+61        </activity>
+62    </application>
+63
+64</manifest>

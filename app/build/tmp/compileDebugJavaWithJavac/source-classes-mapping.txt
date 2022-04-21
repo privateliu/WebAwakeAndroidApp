@@ -1,0 +1,26 @@
+com/je/xwsgame/MainActivity2.java
+ com.je.xwsgame.MainActivity2
+ com.je.xwsgame.MainActivity2$1
+com/je/xwsgame/VibratorDemoActivity.java
+ com.je.xwsgame.VibratorDemoActivity
+com/je/xwsgame/BuildConfig.java
+ com.je.xwsgame.BuildConfig
+com/je/xwsgame/service/MyService2.java
+ com.je.xwsgame.service.MyService2
+ com.je.xwsgame.service.MyService2$1
+com/je/xwsgame/ui/main/SectionsPagerAdapter.java
+ com.je.xwsgame.ui.main.SectionsPagerAdapter
+com/je/xwsgame/ui/main/PlaceholderFragment.java
+ com.je.xwsgame.ui.main.PlaceholderFragment
+ com.je.xwsgame.ui.main.PlaceholderFragment$1
+com/je/xwsgame/MainActivity3.java
+ com.je.xwsgame.MainActivity3
+com/je/xwsgame/ui/main/PageViewModel.java
+ com.je.xwsgame.ui.main.PageViewModel
+ com.je.xwsgame.ui.main.PageViewModel$1
+com/je/xwsgame/MainActivity.java
+ com.je.xwsgame.MainActivity
+ com.je.xwsgame.MainActivity$1
+ com.je.xwsgame.MainActivity$2
+ com.je.xwsgame.MainActivity$3
+ com.je.xwsgame.MainActivity$4
