@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.je.xwsgame.test",
+  "applicationId": "com.je.newxwsgame.test",
   "variantName": "debugAndroidTest",
   "elements": [
     {

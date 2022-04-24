@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.je.xwsgame">
+    package="com.je.newxwsgame">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
@@ -13,24 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuperSus">
-        <activity android:name=".VibratorDemoActivity"></activity>
+        <activity android:name="com.je.newxwsgame.VibratorDemoActivity"></activity>
 
         <service
-            android:name=".service.MyService2"
+            android:name="com.je.newxwsgame.service.MyService2"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name=".service.MyService"
+            android:name="com.je.newxwsgame.service.MyService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".MainActivity3" />
+        <activity android:name="com.je.newxwsgame.MainActivity3" />
         <activity
-            android:name=".MainActivity2"
+            android:name="com.je.newxwsgame.MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.SuperSus.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.je.newxwsgame.MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

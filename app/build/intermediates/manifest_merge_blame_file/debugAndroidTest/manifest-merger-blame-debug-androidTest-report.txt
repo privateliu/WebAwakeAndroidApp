@@ -1,37 +1,37 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.je.xwsgame.test" >
+3    package="com.je.newxwsgame.test" >
 4
 5    <uses-sdk
-5-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:5:5-74
+5-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:5:5-74
 6        android:minSdkVersion="16"
-6-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:5:15-41
+6-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:5:15-41
 7        android:targetSdkVersion="31" />
-7-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:5:42-71
+7-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:11:5-15:64
+9-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:11:5-15:67
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:11:22-76
+10-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:14:22-52
+11-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:13:22-53
-13        android:label="Tests for com.je.xwsgame"
-13-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:15:22-62
-14        android:targetPackage="com.je.xwsgame" />
-14-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:12:22-60
+12-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:13:22-53
+13        android:label="Tests for com.je.newxwsgame"
+13-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:15:22-65
+14        android:targetPackage="com.je.newxwsgame" />
+14-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:12:22-63
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.2.0] C:\Users\xws\.gradle\caches\transforms-2\files-2.1\992ce8e5d6bca0d0674bb7f190eae3e1\jetified-core-1.2.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.2.0] C:\Users\xws\.gradle\caches\transforms-2\files-2.1\992ce8e5d6bca0d0674bb7f190eae3e1\jetified-core-1.2.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:7:5-9:19
-18-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:7:18-43
+18-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:7:5-9:19
+18-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:8:9-60
-19-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6611166083811555380.xml:8:23-57
+19-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:8:9-60
+19-->D:\ASProject\SuperSus\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1376513430494757622.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.2.0] C:\Users\xws\.gradle\caches\transforms-2\files-2.1\992ce8e5d6bca0d0674bb7f190eae3e1\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20

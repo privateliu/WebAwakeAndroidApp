@@ -1,26 +1,34 @@
-com/je/xwsgame/MainActivity2.java
- com.je.xwsgame.MainActivity2
- com.je.xwsgame.MainActivity2$1
-com/je/xwsgame/VibratorDemoActivity.java
- com.je.xwsgame.VibratorDemoActivity
-com/je/xwsgame/BuildConfig.java
- com.je.xwsgame.BuildConfig
-com/je/xwsgame/service/MyService2.java
- com.je.xwsgame.service.MyService2
- com.je.xwsgame.service.MyService2$1
-com/je/xwsgame/ui/main/SectionsPagerAdapter.java
- com.je.xwsgame.ui.main.SectionsPagerAdapter
-com/je/xwsgame/ui/main/PlaceholderFragment.java
- com.je.xwsgame.ui.main.PlaceholderFragment
- com.je.xwsgame.ui.main.PlaceholderFragment$1
-com/je/xwsgame/MainActivity3.java
- com.je.xwsgame.MainActivity3
-com/je/xwsgame/ui/main/PageViewModel.java
- com.je.xwsgame.ui.main.PageViewModel
- com.je.xwsgame.ui.main.PageViewModel$1
-com/je/xwsgame/MainActivity.java
- com.je.xwsgame.MainActivity
- com.je.xwsgame.MainActivity$1
- com.je.xwsgame.MainActivity$2
- com.je.xwsgame.MainActivity$3
- com.je.xwsgame.MainActivity$4
+com/je/newxwsgame/VibratorDemoActivity.java
+ com.je.newxwsgame.VibratorDemoActivity
+com/je/newxwsgame/dummy/DummyContent.java
+ com.je.newxwsgame.dummy.DummyContent
+ com.je.newxwsgame.dummy.DummyContent$DummyItem
+com/je/newxwsgame/ui/main/PageViewModel.java
+ com.je.newxwsgame.ui.main.PageViewModel
+ com.je.newxwsgame.ui.main.PageViewModel$1
+com/je/newxwsgame/service/MyService2.java
+ com.je.newxwsgame.service.MyService2
+ com.je.newxwsgame.service.MyService2$1
+com/je/newxwsgame/MainActivity2.java
+ com.je.newxwsgame.MainActivity2
+ com.je.newxwsgame.MainActivity2$1
+com/je/newxwsgame/MyItemRecyclerViewAdapter.java
+ com.je.newxwsgame.MyItemRecyclerViewAdapter
+ com.je.newxwsgame.MyItemRecyclerViewAdapter$ViewHolder
+com/je/newxwsgame/ui/main/PlaceholderFragment.java
+ com.je.newxwsgame.ui.main.PlaceholderFragment
+ com.je.newxwsgame.ui.main.PlaceholderFragment$1
+com/je/newxwsgame/MainActivity3.java
+ com.je.newxwsgame.MainActivity3
+com/je/newxwsgame/ItemFragment.java
+ com.je.newxwsgame.ItemFragment
+com/je/newxwsgame/MainActivity.java
+ com.je.newxwsgame.MainActivity
+ com.je.newxwsgame.MainActivity$1
+ com.je.newxwsgame.MainActivity$2
+ com.je.newxwsgame.MainActivity$3
+ com.je.newxwsgame.MainActivity$4
+com/je/newxwsgame/ui/main/SectionsPagerAdapter.java
+ com.je.newxwsgame.ui.main.SectionsPagerAdapter
+com/je/newxwsgame/BuildConfig.java
+ com.je.newxwsgame.BuildConfig
